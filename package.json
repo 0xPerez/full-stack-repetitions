@@ -1,0 +1,35 @@
+{
+  "name": "full-stack-repetitions",
+  "version": "1.0.0",
+  "description": "> One day full stack application, styling optional.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "migrate": "knex migrate:latest",
+    "seed": "knex seed:run"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xPerez/full-stack-repetitions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/0xPerez/full-stack-repetitions/issues"
+  },
+  "homepage": "https://github.com/0xPerez/full-stack-repetitions#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "knex": "^3.1.0",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
