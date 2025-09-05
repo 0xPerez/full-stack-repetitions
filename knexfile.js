@@ -13,9 +13,11 @@ module.exports = {
   staging: {
     client: 'postgresql',
     connection: {
-      database: 'my_db',
-      user:     'username',
-      password: 'password'
+      host:     'localhost',
+      port:     5432,
+      database: 'movies',
+      // user:     'pg-docker',
+      // password: 'docker'
     },
     pool: {
       min: 2,
@@ -30,8 +32,8 @@ module.exports = {
     client: 'postgresql',
     connection: {
       database: 'my_db',
-      user:     'username',
-      password: 'password'
+      // user:     'pg-docker',
+      // password: 'docker'
     },
     pool: {
       min: 2,
